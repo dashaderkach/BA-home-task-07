@@ -1,0 +1,150 @@
+
+*{
+ -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.desk {
+  position: relative;
+  width: 730px;
+  height: 730px;
+  background-color: #CCC;
+  margin: 0 auto; 
+  border: 2px solid #666;
+}
+
+.desk:before {
+content: "";
+display:block;
+padding-top: 100%;
+}
+.black-spot{
+  position: absolute;
+  width: 100px;
+  height: 100px; 
+  background-color: black;
+}
+
+.one{ 
+  top:10px;
+  right:610px;
+}
+
+.two{
+  top:10px;
+  right:410px;
+}
+
+.three{
+  top:10px;
+  right: 210px;
+}
+
+.four{
+  top: 10px;
+  right:10px;
+}
+.five{
+  top:110px;
+  right: 510px;
+  
+}
+.six{
+  top: 110px;
+  right:310px;
+  
+}
+.seven{
+  top:110px;
+  right: 110px;
+}
+.eight{
+  top: 210px;
+  right:610px;
+}
+.nine{
+  top: 210px;
+  right:410px;
+}
+.ten{
+  top: 210px;
+  right:210px;
+}
+.eleven{
+  top: 210px;
+  right:10px;
+}
+.twelve{
+  top: 310px;
+  right:510px;
+}
+.thirteen{
+  top: 310px;
+  right:310px;
+}
+.fourteen{
+  top: 310px;
+  right:110px;
+}
+.fifteen{
+  top: 410px;
+  right:610px;
+}
+.sixteen{
+  top: 410px;
+  right:410px;
+}
+.seventeen{
+  top: 410px;
+  right:210px;
+}
+.eighteen{
+  top: 410px;
+  right:10px;
+}
+.nineteen{
+  top: 510px;
+  right:510px;
+}
+.twenty{
+  top: 510px;
+  right:310px;
+}
+.twenty-one{
+  top: 510px;
+  right:110px;
+}
+.twenty-two{
+  top: 610px;
+  right:610px;
+}
+.twentry-three{
+  top: 610px;
+  right:410px;
+}
+.twenty-four{
+  top: 610px;
+  right:210px;
+}
+.twenty-five{
+  top: 610px;
+  right:10px;
+}
+
+/*.black{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  background-color: white;
+  z-index: 3;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  border: 4px solid red;
+
+}*/
